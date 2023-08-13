@@ -1,0 +1,12 @@
+function charCount(myChar, str) {
+    let string = str.toLowerCase
+	let arr = string.split('')
+
+	let counter = 0
+	for(let i = 0; i < arr.length; i++){
+		if(arr[i] === myChar){
+			counter++
+		}
+	}
+	return counter;
+}
